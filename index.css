@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.offset:before{
+    display: block;
+    content: "";
+    height: 1rem;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 22px;
+}
+
+.navbar-dark .navbar-nav,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #1ebba3;
+}
+
+.heading-content{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.heading-content h5{
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.heading-content h1{
+    font-size: 9em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+}
+
+.heading-content p{
+    font-size: 2em;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+
+#About .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#About .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#About .btn:hover{
+    border: 2px solid orangered;
+    cursor: pointer;
+}
+
+.card-body{
+    font-family: monospace;
+}
+
+.form-group label{
+    font-family: monospace;
+}
+
+
+
+@media screen and (max-width: 770px){
+    .navbar{
+        letter-spacing: 0.1rem;
+        padding: 10px 0;
+    }
+    
+    .heading-content h5{
+        font-size: 3em;
+    }
+    
+    .heading-content h1{
+        font-size: 6em;
+    }
+    
+    .heading-content p{
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .navbar{
+        letter-spacing: 0.1rem;
+        padding: 7px 0;
+    }
+    
+    .heading-content h5{
+        font-size: 2.5em;
+    }
+    
+    .heading-content h1{
+        font-size: 4.5em;
+    }
+    
+    .heading-content p{
+        font-size: 1.3em;
+    }
+    #Contact .post-heading h3{
+        font-size: 1.9em;
+    }
+    .form-group small{
+        display: none;
+    }
+    .form-group label{
+        margin: 8px;
+    }
+}

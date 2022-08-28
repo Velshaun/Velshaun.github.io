@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../projects.png"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Velshaun.github.io"
+	}
+}
